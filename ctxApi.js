@@ -1,6 +1,6 @@
 const { default: axios } = require('axios');
-let apikey = 'API_KEY';
-let goalId = "GOAL_ID";
+let apikey = 'QaGstLHddJAl1nonq6kuk9QimkM0Qia3';
+let goalId = "31567155";
 let goals = ["Lead", "DeepConversation", "QualifiedLead"];
 let pageId = PAGE_ID;
 let datasetId = "DATA_SET_ID";
