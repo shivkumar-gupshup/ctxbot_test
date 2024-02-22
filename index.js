@@ -40,7 +40,7 @@ app.post('/ctwa', async (req, res) => {
             let name = req.body.payload.sender?.name;
             if (req.body.payload.type == 'text') {
                 let msg = req.body.payload.payload.text;
-                if (campaign == '8ab2d616-99dc-44ff-a282-040dab039093') {
+                if (campaign == '120206901332880763') {
                     if (!users[phone]?.type) {
                         newItem = { [phone]: { type: 'CTX' } };
                         users = {
